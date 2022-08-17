@@ -25,7 +25,7 @@ export class AppComponent {
   }
 
   mock(): void {
-    this.usuario = new Usuario('1', 'Fulano');
+    this.usuario = new Usuario('1', 'Ciclano');
     this.usuario.email = 'fulano@tal.com';
     this.usuario.addNota(1, 'Primeira Nota');
     this.usuario.addNota(2, 'Segunda Nota');
